@@ -1,4 +1,4 @@
-# Solarized Light Color Theme for LSD
+# Solarized Light Color Theme for LSDeluxe (lsd)
 
 This is a theme for [LSD (LSDeluxe)](https://github.com/lsd-rs/lsd), which is a
 rewrite of the GNU utility `ls` with lots of added features like colors, icons,
