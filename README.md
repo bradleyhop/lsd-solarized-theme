@@ -15,9 +15,20 @@ This theme is designed using the [Solarized](https://github.com/altercation/sola
 
 ## Installation
 
-Copy the `theme` directory from this repository and its contents to your XDG Base
-Directory, e.g. `~/.config/lsd` (you may need to create this directory). In your
-configuration file, e.g. `~/.config/lsd/config.yaml`, add the following entry:
+Configuring a custom theme for LSD depends on what version is on your system. Check your version with `lsd --version`. For either version, create a `lsd` directory to your XDG Base Directory, e.g. `~/.config/lsd`.
+
+### LSD Version 1.0.0 or later
+
+Copy `colors.yaml` to your `~/.config/lsd` directory. To install the theme, add the following to your `~/.config/lsd/config.yaml` file:
+
+```yaml
+color:
+  theme: custom
+```
+
+### Older versions
+
+Copy recursively the `themes` directory in this repository to your `~/.config/lsd` directory. In your configuration file, e.g. `~/.config/lsd/config.yaml`, add the following entry:
 
 ```yaml
 color:
