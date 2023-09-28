@@ -1,2 +1,5 @@
 color:
-  theme: solarized-light
+  # if you're using LSD verion prior to 1.0.0, uncomment the following line
+  # theme: solarized-light
+  # if you're using LSD verion 1.0.0 or later, uncomment the following line
+  theme: custom
