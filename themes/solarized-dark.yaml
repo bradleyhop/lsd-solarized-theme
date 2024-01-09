@@ -1,0 +1,29 @@
+# A theme for the lsd utility. Based on the Solarized color theme.
+# Made for Solarized-base terminal themes, but works well with most dark themes.
+user: 136
+group: 245
+permission:
+  read: 136
+  write: 64
+  exec: 160
+  exec-sticky: 125
+  no-access: 245
+  octal: 37
+  acl: 37
+  context: 245
+date:
+  hour-old: 64
+  day-old: 136
+  older: 240
+size:
+  none: 160
+  small: 61
+  medium: 37
+  large: 33
+inode:
+  valid: 64
+  invalid: 160
+links:
+  valid: 61
+  invalid: 240
+tree-edge: 245
