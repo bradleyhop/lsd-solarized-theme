@@ -6,17 +6,15 @@ These are light and dark Solarized themes for [LSD (LSDeluxe)](https://github.co
 rewrite of the GNU utility `ls` with lots of added features like colors, icons,
 tree-view, more formatting options etc.
 
-The default color theme works well for terminals using a dark color theme. However,
-some of the colors in the default theme make reading some information,
-particularly file information using `lsd -l`, impossible using a terminal with a
-light theme.
-
 This theme is designed using the [Solarized](https://github.com/altercation/solarized) color scheme, but should work well with most light-colored terminal themes. I've tried to keep the spirit of the default theme by using different colors for file size, date, and file permissions.
 
-![Screenshot of Solarized light lsd theme in terminal](img/lsdScreenshotLight.png)
-*Solarized light lsd theme in terminal*
+*Light Theme*
 
-_Screenshot of Solarized dark soon to come_
+![solarized-light-lsd](./img/light.png)
+
+*Dark Theme*
+
+![solarized-dark-lsd](./img/dark.png)
 
 ## Installation
 
@@ -24,7 +22,7 @@ Configuring a custom theme for LSD depends on what version is on your system. Ch
 
 ### LSD Version 1.0.0 or later
 
-Copy either `color_solarized_light.yaml` or `color_solarized_dark.yaml` in the parent directory of the repository to your `~/.config/lsd/colors.yaml`. To use the theme, add the following to your `~/.config/lsd/config.yaml` file (you may need to initialize this directory and config files first if they don't exist):
+Copy the contents of either `color_solarized_light.yaml` or `color_solarized_dark.yaml` in the parent directory of this repository to `~/.config/lsd/colors.yaml`. To use the theme, add the following to your `~/.config/lsd/config.yaml` file (you may need to initialize this directory and config files first if they don't exist):
 
 ```yaml
 color:
