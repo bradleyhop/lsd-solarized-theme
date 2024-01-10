@@ -1,9 +1,9 @@
 # A theme for the lsd utility. Based on the Solarized color theme.
 # Made for Solarized-base terminal themes, but works well with most dark themes.
-user: 136
-group: 245
+user: 125
+group: 136
 permission:
-  read: 136
+  read: 166
   write: 64
   exec: 160
   exec-sticky: 125
