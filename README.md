@@ -6,7 +6,7 @@ These are light and dark Solarized themes for [LSD (LSDeluxe)](https://github.co
 rewrite of the GNU utility `ls` with lots of added features like colors, icons,
 tree-view, more formatting options etc.
 
-This theme is designed using the [Solarized](https://github.com/altercation/solarized) color scheme, but should work well with most light-colored terminal themes. I've tried to keep the spirit of the default theme by using different colors for file size, date, and file permissions.
+This theme is designed using the [Solarized](https://github.com/altercation/solarized) color scheme. I've found the light color theme works well with most light-themed console terminals.
 
 *Light Theme*
 
@@ -29,6 +29,8 @@ color:
   theme: custom
 ```
 
+See the [Config file content](https://github.com/lsd-rs/lsd#config-file-content) official documentation for more information.
+
 ### Older versions
 
 Recursively copy the `themes` directory in this repository to your `~/.config/lsd` directory. In your configuration file, e.g. `~/.config/lsd/config.yaml`, add the following entry for the light theme:
@@ -44,8 +46,3 @@ Or for the dark theme:
 color:
   theme: solarized-dark
 ```
-
-## Feedback and Future Release
-
-Please offer any suggests via pull request or issues. If there is interest, I may add a
-solarized-dark theme.
